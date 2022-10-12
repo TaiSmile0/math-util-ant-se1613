@@ -17,12 +17,7 @@ import static com.taismile.mathutil.core.MathUtil.*;
  */
 @RunWith(value = Parameterized.class)
 public class MathUtilDDTTest {
-    //1.chuẩn bị bộ data, là mảng 2 chiều, 2 cột ứng với Expected và n 
-    //                                     dòng ứng với các test case
-    
-    //mảng Object, số thì Wrapper class - class gói các primitive
-    //Integer -> int, Long -> long
-    
+
     @Parameterized.Parameters
     public static Object[][] initData(){
         int a[] = {5, 10, 15, 20, 25};//liệt kê các phần tử mảng cách nhau
