@@ -70,7 +70,6 @@ public class MathUtilDDTTest {
 //120           5
 //720           6
 //...
-
 //[7][2]
 //NẾU TA CÓ DC CÁCH NÀO ĐÓ, MÀ TÁCH ĐÁM DATA RA RIÊNG 1 CHỖ
 //SAU ĐÓ TỪ TỪ NHỒI/MỚM/FEED DATA NÀY VÀO CÂU LỆNH TEST HÀM Ở TRÊN
