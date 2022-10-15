@@ -40,6 +40,7 @@ public class MathUtil {
             return 1;
         
         return n * getFactorial(n - 1);
+        
     }
 }
 //    public static long getFactorial(int n){
