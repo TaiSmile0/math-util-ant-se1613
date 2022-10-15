@@ -33,19 +33,22 @@ public class MathUtil {
     //n! = n x (n - 1)! công thức đệ quy
     //ĐỆ QUY: GỌI LẠI CHÍNH MÌNH VỚI MỘT QUY MÔ KHÁC/NHỎ HƠN
      public static long getFactorial(int n){
-        if(n < 0 || n > 20)
+         if(n < 0 || n > 20)
             throw new IllegalArgumentException("Invalid n, n must be between 0 to 20");
+        
+        if(n == 0 || n == 1)      //chốt dừng
+            return 1;
         
         return n * getFactorial(n - 1);
     }
 }
 //    public static long getFactorial(int n){
-//        if(n < 0 || n > 20){
+//        if(n < 0 || n > 20)
 //            throw new IllegalArgumentException("Invalid n, n must be between 0 to 20");
-//        }
-//        if(n == 0 || n == 1){
+//        
+//        if(n == 0 || n == 1)
 //            return 1;
-//        }
+//        
 //        
 //        long product = 1;
 //        for (int i  = 2; i <= n; i++)
