@@ -1,3 +1,4 @@
+[![Java CI](https://github.com/TaiSmile0/math-util-ant-se1613/actions/workflows/ci-with-ant.yml/badge.svg)](https://github.com/TaiSmile0/math-util-ant-se1613/actions/workflows/ci-with-ant.yml)
 # Welcome to Math Utility Repositiory
 
 ### You will find in this repo the following stuff:
